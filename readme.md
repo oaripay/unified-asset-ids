@@ -8,8 +8,8 @@ A Unified Asset Identifier (UAID) consists of three or more colon-delimited part
 
 | Part | Name | Description |
 | ------------ | ------------ | ------------ |
-| 1. | Scheme | The URI Scheme identifier, always `uaid`  |
-| 2. | Sub-Standard | The abbreviated name of the identifying standard. [List of available standards](/substandards) |
+| 1. | Scheme | The URI Scheme identifier, always `uaid`.  |
+| 2. | Sub-Standard | The abbreviated name of the identifying standard. [List of available standards](/substandards). |
 | 3..n | Specific Identifier | The identifier of the asset as defined by the respective sub-standard.  |
 
 All parts are case insensitive, but lower case is recommended.
@@ -29,9 +29,9 @@ All parts are case insensitive, but lower case is recommended.
 | **`uaid:caip19:tron:0x2b6653dc/trc20:TR7NHq`<br>`jeKQxGTCi8q8ZY4pL8otSzgjLj66`** | The Circle USD stablecoin issued on the Tron Mainnet |
 | **`uaid:caip19:eip155:56/erc20:0x55d398326f`<br>`99059ff775485246999027b3197955`** | Wrapped Ethereum issued on the Binance Smart Chain Mainnet |
 
-### Identifiers Can Be Stacked
+## Hierarchy
 
-![Unified Asset Identifiers Stacked](diagrams/uaid-hierarchy.svg)
+![Unified Asset Identifiers Hierarchy](diagrams/uaid-hierarchy.svg)
 
 Unified Asset Identifiers can be chained hierarchically IF, and only if, the asset is an IOU of its parent, that is
 
