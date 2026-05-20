@@ -9,8 +9,8 @@ A Unified Asset Identifier (UAID) consists of three or more colon-delimited part
 | Part | Name | Description |
 | ------------ | ------------ | ------------ |
 | 1. | Scheme | The URI Scheme identifier, always `uaid`.  |
-| 2. | Sub-Standard | The abbreviated name of the identifying standard. [List of available standards](/substandards). |
-| 3..n | Specific Identifier | The identifier of the asset as defined by the respective sub-standard.  |
+| 2. | Standard | The abbreviated name of the identifying standard. [List of available standards](/standards). |
+| 3..n | Standard-specific Identifier | The identifier of the asset as defined by the respective standard.  |
 
 All parts are case insensitive, but lower case is recommended.
 

@@ -1,6 +1,6 @@
 # UAID x Stablecoins
 
-This sub-standard defines an abstract type of asset that represents all issued stablecoins from the same issuer with the same underlying `iso4217` currency.
+This standard defines an abstract type of asset that represents all issued stablecoins from the same issuer with the same underlying `iso4217` currency.
 
 The benefit of this abstraction is that a payment recipient can request to be paid in a specific stablecoin without having to specify the chain.
 
